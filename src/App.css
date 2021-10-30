@@ -1,0 +1,389 @@
+
+
+body,
+html {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+    
+	overflow-x: hidden;
+	color: #fff;
+	font-family: 'Poppins', sans-serif !important;
+    scroll-behavior: smooth;
+}
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  display: none;
+}
+.page_width {
+    max-width: 1530px;
+    margin: auto !important;
+}
+.nav-logo {
+    width: 175px;
+    height: auto;
+    /* padding-top: 10px; */
+}
+@media(max-width:991px){
+    #icon-container{
+        display: flex;
+        flex-direction: row !important;
+    }
+    #form{
+        display: flex;
+        flex-direction: column !important;
+    }
+}
+.card-header {
+    border-bottom: 1px solid rgb(255 255 255 / 13%) !important;
+}
+label.price_feild {
+    width: 100%;
+    margin: 0;
+    padding: 5px 15px;
+    background-color: #252525;
+    border: 1px solid #cccccc2e;
+}
+.text_size_input{
+    font-size: 22px;
+}
+.rotate-icon {
+    float: right;
+}
+.text-cs-y{
+    color:#F7941D;
+}
+.p_css {
+    font-size: 25px;
+}
+.p_css1 {
+    color: #F7941D;
+    font-size: 38px;
+}
+.p_css2 {
+    font-size: 21px;
+}
+.p_css3 {
+    font-size: 18px;
+}
+.heading {
+    font-size: 66px;
+}
+.sub-heading {
+    font-size: 32px;
+}
+.traits ul li {
+    line-height: 36px;
+    padding-bottom: 24px;
+}
+.traits ul {
+    padding-left: 24px;
+}
+.footer_logo .nav-logo {
+    width: 125px;
+    margin: 0 !important;
+    height: auto;
+    padding-top: 10px;
+}
+.center-flex1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn.theme-btn-dark{
+    background-color: #f1f1f1;
+    color: #ffffff;
+    border-radius: 4px;
+    font-weight: 300;
+    font-size: 22px;
+    background: #2D2D2D;
+    border: 1px solid #FFEEEE;
+    letter-spacing: 1px;
+    line-height: 33px;
+}
+.navbar-section {
+	z-index: 2 !important;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.navbar-section>.navbar {
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.navbar-nav {
+	border-radius: 7px;
+	/*background-color:#f1f1f1;*/
+}
+
+a {
+	text-decoration: none!important;
+}
+
+
+
+.hero_div_img {
+
+	width: 100%;
+	max-width: 85%;
+}
+
+.theme-btn {
+    background-color: #f1f1f1;
+    color: #ffffff;
+    background: #F7941D;
+    border-radius: 4px;
+    font-weight: 300;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 33px;
+}
+.hero-section {
+	padding: 300px 0px 0;
+	/*z-index:893;*/
+	/*position:relative;*/
+}
+.card{
+    background-color: #252525 ;
+    border: 1px solid #cccccc30;
+    margin: 5px 0px;
+}
+
+.mybtn{
+    color: white !important;
+   border:1px solid white;
+    border-radius: 40px !important;
+    background-color: transparent;
+   padding-left: 10px;
+   padding-right: 10px;
+   height: 40px;
+   margin-top: 8px;
+   width: 150px;
+   cursor: pointer;
+}
+.instagram{
+    margin-right: 5px;
+}
+.nav-link{
+  
+    cursor: pointer;
+}
+@media only screen and (max-width: 1200px) {
+	.hero-section {
+		padding: 250px 0 0;
+	}
+	.col-img {
+		margin: 50px 0;
+	}
+}
+
+@media only screen and (max-width: 545px) {
+	.hero_div_img {
+		max-height: 280px;
+		width: 280px;
+	}
+	.footer_text {
+        font-size: 13px !important;
+    }
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+/* Float four columns side by side */
+
+.column-pool {
+	float: left;
+	width: 25%;
+	padding: 0 10px;
+	display: table-cell;
+}
+
+.card-pool,
+.column-pool:hover {
+	transform: translate(0, -10px);
+	transition: 0.6s;
+}
+.column-pool1 {
+	float: left;
+	width: 33.33%;
+	padding: 0 30px;
+	display: table-cell;
+}
+
+.card-pool,
+.column-pool1:hover {
+	transform: translate(0, -10px);
+	transition: 0.6s;
+}
+
+
+/* Remove extra left and right margins, due to padding */ 
+
+.row {
+	margin: 0 -5px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/* Responsive columns */
+
+@media screen and (max-width: 1160px) {
+	.column-pool {
+		width: 50%!important;
+		display: block;
+		margin-bottom: 20px;
+	}
+	.column-pool1 {
+		width: 33.33%!important;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.column-pool {
+		width: 100%!important;
+		display: block;
+		margin-bottom: 20px;
+	}
+	.column-pool1 {
+		width: 100%!important;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+
+
+/* Style the counter cards */
+
+.card-pool {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 6px;
+	text-align: center;
+
+	/*display:table-cell!important;*/
+	/*  white-space: nowrap;*/
+	/*overflow: hidden;*/
+	text-overflow: ellipsis;
+	height: 90%!important;
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1400px) { 
+.heading {
+    font-size: 60px !important;
+}
+.tt_right{
+        text-align: center !important;
+    padding: 20px 0 0 0 !important;
+}
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1199px) { 
+.heading {
+    font-size: 60px !important;
+}
+.m_top
+{
+  order:1;  
+  text-align:center !important;
+      padding: 0px 0 40px 0 !important;
+}
+.m_btm{
+    order:2;
+    padding: 0 !important;
+}
+.hero_div_img {
+    width: 70%;
+    max-width: 100%;
+}
+.tt_right{
+        text-align: center !important;
+    padding: 20px 0 0 0 !important;
+}
+}
+@media screen and (min-device-width: 200px) and (max-device-width: 767px) { 
+    .heading {
+    font-size: 42px !important;
+}
+.p_css {
+    font-size: 20px !important;
+}
+.sub-heading {
+    font-size: 24px !important;
+}
+.p_css2 {
+    font-size: 20px !important;
+}
+.p_css1 {
+    font-size: 32px !important;
+        margin-top: 25px !important;
+}
+.mobile_padding{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 0 !important;
+}
+.mobile_padding_nav{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.btn_2_hero {
+    font-size: 18px !important;
+    line-height: 20px !important;
+}
+.hero-section {
+    padding: 165px 0 0 !important;
+}
+.m_top
+{
+  order:1;  
+  text-align:center !important;
+      padding: 0px 0 40px 0 !important;
+}
+.m_btm{
+    order:2;
+    padding: 0 !important;
+}
+.hero_div_img {
+    
+    max-width: 100%;
+}
+.head_btm{
+    padding-bottom: 0 !important;
+}
+.tt_right{
+        text-align: center !important;
+    padding: 20px 0 0 0 !important;
+}
+.column-pool1 {
+    margin-bottom: 0 !important;
+}
+div#navbarSupportedContent {
+    padding: 20px 0 0 0;
+}
+.column-pool1 {
+    padding: 0 15px;
+}
+.text_size_input {
+    width: 100% !important;
+    margin-bottom: 10px !important;
+}
+
+
+}
+/*responsive cards css*/
