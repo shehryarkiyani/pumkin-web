@@ -1,9 +1,6 @@
 
 import React, { Component,useEffect } from 'react';
-
 import './App.css';
-
-
 import Header from './components/Header';
 import Section1 from './components/section1';
 import Section2 from './components/section2';
