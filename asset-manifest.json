@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pumkin-web/static/css/main.812e1c16.chunk.css",
+    "main.css": "/pumkin-web/static/css/main.e404761a.chunk.css",
     "main.js": "/pumkin-web/static/js/main.6e0b82c4.chunk.js",
     "main.js.map": "/pumkin-web/static/js/main.6e0b82c4.chunk.js.map",
     "runtime-main.js": "/pumkin-web/static/js/runtime-main.24323d03.js",
@@ -10,13 +10,13 @@
     "static/js/3.c3c9118b.chunk.js": "/pumkin-web/static/js/3.c3c9118b.chunk.js",
     "static/js/3.c3c9118b.chunk.js.map": "/pumkin-web/static/js/3.c3c9118b.chunk.js.map",
     "index.html": "/pumkin-web/index.html",
-    "static/css/main.812e1c16.chunk.css.map": "/pumkin-web/static/css/main.812e1c16.chunk.css.map",
+    "static/css/main.e404761a.chunk.css.map": "/pumkin-web/static/css/main.e404761a.chunk.css.map",
     "static/js/2.f7a29698.chunk.js.LICENSE.txt": "/pumkin-web/static/js/2.f7a29698.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.24323d03.js",
     "static/js/2.f7a29698.chunk.js",
-    "static/css/main.812e1c16.chunk.css",
+    "static/css/main.e404761a.chunk.css",
     "static/js/main.6e0b82c4.chunk.js"
   ]
 }
